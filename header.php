@@ -11,6 +11,8 @@
   </head>
   <body>
     <header>
+      <div class="contenair-fluid">
+        <div class="col-sm">
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +43,13 @@
       </li>
     </ul>
 </nav>
+</div>
+</div>
 </header>
 
 
 <section class="Specialties">
-  	<h2> Our Specialties</h2>
+  	<h2> Our specialties</h2>
     	<div class="container-fluid">
       		<div class="row">
         		<div class="col-sm-2">
@@ -109,7 +113,7 @@
 </div>
 <div class="container">
   <div class="about_us">
-  <h2> About Us </h2>
+  <h2> About us </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -126,7 +130,7 @@
 </div>
 <section class="our_branches">
     <div class="container-fluid">
-      <h2>Our Branches</h2>
+      <h2>Our branches</h2>
       <div class="row">
         <div class="col-sm">
           <div class="card">

@@ -7,7 +7,6 @@ header
     background-size: cover;
     font-family: 'Gabriela', serif;
 }
-
 body
 {
   background-color: #fefbfa;
@@ -16,7 +15,6 @@ body
   font-family: 'Gabriela', serif;
   overflow-x: hidden;
 }
-
 footer
 {
   margin-top: 15px;
@@ -24,6 +22,7 @@ footer
   color: #ffffff;
   width: 100%;
   font-family: 'Gabriela', serif;
+  position: relative;
 }
 p
 {
@@ -34,21 +33,6 @@ a
 {
   color: #ffffff;
 }
-li
-{
-
-}
-.navbar
-{
-  color: #000b2c;
-    display: inline-block;
-}
-#navbarNav
-{
-  color: #000b2c;
-  font-size: 20px;
-  font-weight: bold;
-}
 img
 {
   display: flex;
@@ -57,17 +41,10 @@ img
   align-items: center;
   width: 80%;
 }
-
-
-
 h4
 {
   text-align: center;
 }
-
-
-
-
 .Specialties
 {
 
@@ -82,7 +59,203 @@ h4
     width: auto;
     height: auto;
 }
-@media (max-width: 950px){
+ h2
+{
+  margin-bottom: 10vh;
+
+  color: #000b2c;
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+}
+.Specialties > h4
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-style: italic;
+}
+.btn
+{
+  background-color:#ff4a00;
+}
+.offer
+{
+  width: 55%;
+  margin: auto;
+  margin-top: 15vh;
+}
+.about_us
+{
+  margin-top: 10vh;
+  text-align: center;
+  color:#122441;
+}
+.about_us > div
+{
+  background-color: #f6f6f4;
+  font-size: 1em;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.our_branches
+{
+
+  margin: auto;
+  width: 100%;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  font-style: italic;
+  font-weight: bold;
+}
+.our_branches > h2
+{
+  text-align: left;
+}
+.our_branches > h4
+{
+  color: #ffffff;
+  background-color: #ff4a00;
+}
+.hours_open
+{
+  color:  #000b2c;
+  font-style: italic;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 15vh;
+}
+.hours_open > .row > .col-sm > .container
+{
+  background-color: #233e6a;
+  color: #ffffff;
+  padding: 30px;
+  width: 60%
+}
+.customer_reviews > .row
+{
+
+  background-color: #000b2c;
+  color: #f6f6f4;
+  margin-top: 25px;
+}
+.customer_reviews > h2
+{
+  text-align: center;
+  color: #000b2c;
+}
+.customer_reviews > h3
+{
+  text-align: center;
+  color: #f6f6f4;
+}
+.customer_reviews > img
+{
+  width: 100%;
+}
+.row
+{
+  text-align: center;
+  margin: auto;
+}
+.row > div
+{
+  margin: auto;
+}
+
+i
+{
+  color: #ff4c00;
+}
+footer > .container
+{
+  margin: auto;
+}
+ul
+{
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+  font-size: 14px;
+}
+.nav-item
+{
+  font-size: 1.3em;
+}
+li
+{
+  margin-bottom: -10px;
+}
+footer > .container > .row > div {
+  margin: 0 auto auto;
+}
+footer > .container > .row > div:nth-of-type(3) {
+  margin: auto;
+}
+footer > .row
+{
+  position: absolute;
+  right: 30PX;
+  bottom:5px;
+}
+img
+{
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+}
+.logo > div > *
+{
+  display: inline-block;
+  width: 50%
+}
+.logo > div > img
+{
+  vertical-align: middle;
+  width: 20%;
+  margin-right: 15px;
+
+}
+.logo > div
+{
+  font-size: 0;
+}
+.logo > div > h3
+{
+  vertical-align: middle;
+}
+footer > .container > .row > div > div > h5 {
+  font-size: 22px;
+}
+.fab{
+  margin-left: 15px;
+}
+@media (max-width: 730px){
+  header
+  {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:45vh;
+  }
+  .hours_open > .row > .col-sm > .container
+  {
+    background-color: #233e6a;
+    color: #ffffff;
+    padding: 0px;
+    width: auto;
+  }
+}
+@media (max-width: 950px)
+{
+  header{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:60vh;
+  }
+  .navbar
+  {
+    background-color: white;
+  }
   .Specialties
   {
     width: 100%;
@@ -109,113 +282,18 @@ h4
     display: inline-block;
   }
   .card-body > a
-{
-  height: auto;
-  font-size: 10px;
-}
-.Specialties > h4
-{
-  font-size: 1em;
-}
-
-}
-
-
-.Specialties > h2
-{
-
-  margin-bottom: 10vh;
-  background-color: #000b2c;
-  color: #ffffff;
-  text-align: left;
-  font-style: italic;
-  font-weight: bold;
-}
-.Specialties > h4
-{
-  font-size: 1.3em;
-  font-weight: bold;
-  font-style: italic;
-}
-
-@media (max-width: 950px){
-  .Specialties > h2
   {
-    background-color:  #fefbfa;
-    color: #000b2c;
-    text-align: left;
+    height: auto;
+    font-size: 10px;
   }
-
-}
-
-.btn
-{
-  background-color:#ff4a00;
-}
-
-
-
-.offer
-{
-  width: 55%;
-  margin: auto;
-  margin-top: 15vh;
-}
-
-
-
-
-.about_us
-{
-  margin-top: 10vh;
-  text-align: center;
-  color:#122441;
-}
-.about_us > h2
-{
-  text-align: center;
-  font-style: italic;
-  color:#122441;
-}
-.about_us > div
-{
-  background-color: #f6f6f4;
-  font-size: 1em;
-  text-align: center;
-  width: 100%;
-  margin: auto;
-}
-@media (max-width: 950px){
+  .Specialties > h4
+  {
+    font-size: 1em;
+  }
   .about_us
   {
     font-size: 0.6em;
   }
-}
-
-
-
-
-
-.our_branches
-{
-
-  margin: auto;
-  width: 100%;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  font-style: italic;
-  font-weight: bold;
-}
-.our_branches > h2
-{
-  text-align: left;
-}
-.our_branches > h4
-{
-  color: #ffffff;
-  background-color: #ff4a00;
-}
-@media (max-width: 950px){
   .our_branches > .card_body
   {
     font-size: 1em;
@@ -230,92 +308,31 @@ h4
   {
     color: #000b2c;
   }
-}
-
-
-
-
-
-.hours_open
-{
-  color:  #000b2c;
-  font-style: italic;
-  font-weight: bold;
-  margin: auto;
-  margin-bottom: 15vh;
-}
-.hours_open > h2
-{
-  color:#000b2c;
-}
-.hours_open > .row > .col-sm > .container
-{
-  background-color: #233e6a;
-  color: #ffffff;
-}
-
-
-.customer_reviews > .row
-{
-
-  background-color: #000b2c;
-  color: #f6f6f4;
-  margin-top: 25px;
-}
-.customer_reviews > h2
-{
-  text-align: center;
-  color: #000b2c;
-}
-.customer_reviews > h3
-{
-  text-align: center;
-  color: #f6f6f4;
-}
-.customer_reviews > img
-{
-  width: 100%;
-}
-@media (max-width: 950px){
   .customer_reviews > div , .customer_reviews > h2
   {
     display: none;
   }
-}
-
-
-
-.row
-{
-  text-align: center;
-  margin: auto;
-}
-.row > div
-{
-  margin: auto;
-}
-
-i
-{
-  color: #ff4c00;
-}
-footer > .container
-{
-  display: inline-block;
-  vertical-align: middle;
- flex-direction: row;
- margin: auto;
-}
-.icons
-{
-  text-align: right;
-}
-.navbar-footer
-{
-  text-align: right;
-
-}
-.navbar-footer > li
-{
-  color: #ffffff;
+  footer > .row > div
+  {
+    margin: auto;
+  }
+  footer > .container > .row > div
+  {
+    margin: 20px auto auto;
+    display: inline-block;
+  }
+  footer > .container > .row > div > div
+  {
+    padding: 0;
+  }
+  footer > .container > .row > div > div > h5
+  {
+    font-size: 18px;
+  }
+  footer > .row
+  {
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
 }
