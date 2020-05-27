@@ -1,6 +1,6 @@
 header
 {
-    background: url("img/en_tete.png.png");
+    background: url("img/en_tete_vierge.png");
     position: relative;
     width: 100%;
     height: 100vh;
@@ -9,7 +9,7 @@ header
 }
 body
 {
-  background-color: #fefbfa;
+  background-color: #f6f6f4;
   width: 100%;
   height: auto;
   font-family: 'Gabriela', serif;
@@ -23,6 +23,43 @@ footer
   width: 100%;
   font-family: 'Gabriela', serif;
   position: relative;
+}
+
+h1
+{
+  font-size: 8em;
+  color: #000b2c;
+  margin-top: 15vh;
+  font-style: oblique;
+  margin-left: 5vh;
+}
+.logo-header
+{
+  display: inline-block;
+  float: right;
+  margin-right: 23vh;
+  margin-top: 10vh;
+  width: 10%;
+}
+header > .contenair
+{
+  display: block;
+  float: left;
+  max-width: 40%;
+  margin-bottom: 5vh;
+  margin-left: 5vh;
+  text-align: left;
+}
+.headline
+{
+  color: #ff4a00;
+  font-size: 1.3em;
+  text-align: left;
+}
+.description
+{
+  font-size: 0.6em;
+  text-align: left;
 }
 p
 {
@@ -61,12 +98,15 @@ h4
 }
  h2
 {
-  margin-bottom: 10vh;
-
   color: #000b2c;
-  text-align: left;
+  text-align: center;
   font-style: italic;
   font-weight: bold;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
 }
 .Specialties > h4
 {
@@ -80,7 +120,7 @@ h4
 }
 .offer
 {
-  width: 55%;
+  width: 60%;
   margin: auto;
   margin-top: 15vh;
 }
@@ -108,10 +148,6 @@ h4
   font-style: italic;
   font-weight: bold;
 }
-.our_branches > h2
-{
-  text-align: left;
-}
 .our_branches > h4
 {
   color: #ffffff;
@@ -138,11 +174,6 @@ h4
   background-color: #000b2c;
   color: #f6f6f4;
   margin-top: 25px;
-}
-.customer_reviews > h2
-{
-  text-align: center;
-  color: #000b2c;
 }
 .customer_reviews > h3
 {
@@ -250,11 +281,49 @@ footer > .container > .row > div > div > h5 {
   header{
     background-size: contain;
     background-repeat: no-repeat;
-    height:60vh;
+    height:30vh;
   }
   .navbar
   {
-    background-color: white;
+    background-color: none;
+  }
+  h1
+  {
+    font-size: 1em;
+    color: #000b2c;
+    margin-top: 2px;
+    font-style: oblique;
+    margin-left: 1px;
+  }
+  .logo-header
+  {
+    display: inline-block;
+    float: right;
+    margin-right: 23px;
+    margin-top: 2px;
+    width: 10%;
+  }
+  header > .contenair
+  {
+    display: block;
+    float: left;
+    max-width: 20%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  header > .contenair > a
+  {
+    height: auto;
+    font-size: 7px;
+  }
+  .headline
+  {
+    font-size: 5px;
+  }
+  .description
+  {
+    font-size: 0;
   }
   .Specialties
   {
@@ -289,6 +358,12 @@ footer > .container > .row > div > div > h5 {
   .Specialties > h4
   {
     font-size: 1em;
+  }
+  .offer
+  {
+    width: 80%;
+    margin: auto;
+    margin-top: 3px
   }
   .about_us
   {
