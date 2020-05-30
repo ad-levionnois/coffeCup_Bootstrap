@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=320"/>
+    <meta name="description" content="Coffecup">
     <script src="https://kit.fontawesome.com/7c8481f9fe.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <title></title>
+    <title>CoffeCup</title>
   </head>
   <body>
 
@@ -46,6 +47,7 @@
               </nav>
             </div>
           </div>
+        </div>
 
           <img class="logo-header"src="img/logo_coffee.png" alt="logo">
             <div class="contenair">
@@ -77,7 +79,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
                   		     consequat. Duis aut dolor in reprehenderit
                   		     in voluptate velit esse cillum dolore eu fugiat
                   		     nulla pariatur.</p>
-                			        <a href="#" class="btn btn-primary">Order Now</a>
+                			     <a href="#" class="btn btn-primary">Order Now</a>
         			     </div>
       		   </div>
   		   <div class="col-sm-2">
@@ -94,7 +96,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
               	       consequat. Duis aut dolor in reprehenderit
               	       in voluptate velit esse cillum dolore eu fugiat
               	       nulla pariatur.</p>
-            		            <a href="#" class="btn btn-primary">Order Now</a>
+            		       <a href="#" class="btn btn-primary">Order Now</a>
           	     </div>
           </div>
           <div class="col-sm-2">
@@ -111,7 +113,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
           	         consequat. Duis aut dolor in reprehenderit
           	         in voluptate velit esse cillum dolore eu fugiat
           	         nulla pariatur.</p>
-        		              <a href="#" class="btn btn-primary">Order Now</a>
+        		         <a href="#" class="btn btn-primary">Order Now</a>
     	          </div>
               </div>
             </div>

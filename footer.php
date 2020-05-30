@@ -24,7 +24,7 @@
   </div>
 <div class="logo">
   <div class="col-sm">
-    <img class="logo-img" src="img/logo.png">
+    <img class="logo-img" src="img/logo.png" alt="logo">
      <h3>CoffeeCup</h3>
   </div>
 </div>
